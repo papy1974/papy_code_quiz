@@ -1,4 +1,4 @@
-//define  Var with array and object for questions 
+// Var with array and object for questions 
 var questions = [
     {
         title: "Commonly used data types DO NOT include:",
@@ -27,7 +27,7 @@ var questions = [
     },
 
 ];
-    // Declared variables
+// Declared variables
 var score = 0;
 var questionIndex = 0;
 
@@ -86,8 +86,6 @@ function render(questionIndex) {
         listItem.addEventListener("click", (compare));
     })
 }
-
-
 // Event to compare choices with answer
 function compare(event) {
     var element = event.target;
@@ -156,68 +154,48 @@ function allDone() {
 
     questionsDiv.appendChild(createLabel);
 
-    // found local storage 
-var allScores = localStorage.getItem("allScores");
-allScores = JSON.parse(allScores);
+    // input
+    var createInput = document.createElement("input");
+    createInput.setAttribute("type", "text");
+    createInput.setAttribute("id", "initials");
+    createInput.textContent = "";
 
-if (allScores !== null) {
+    questionsDiv.appendChild(createInput);
 
-    for (var i = 0; i < allScores.length; i++) {
+    // submit
+    var createSubmit = document.createElement("button");
+    createSubmit.setAttribute("type", "submit");
+    createSubmit.setAttribute("id", "Submit");
+    createSubmit.textContent = "Submit";
 
-        var createLi = document.createElement("li");
-        createLi.textContent = allScores[i].initials + " " + allScores[i].score;
-        highScore.appendChild(createLi);
+    questionsDiv.appendChild(createSubmit);
 
-        
-    }
-}
-// Event listener to move to index page
-goBack.addEventListener("click", function () {
-    window.location.replace("./index.html");
-});
+    // Event listener to capture initials and local storage for initials and score
+    createSubmit.addEventListener("click", function () {
+        var initials = createInput.value;
 
-// input
-var createInput = document.createElement("input");
-createInput.setAttribute("type", "text");
-createInput.setAttribute("id", "initials");
-createInput.textContent = "";
+        if (initials === null) {
 
-questionsDiv.appendChild(createInput);
+            console.log("No value entered!");
 
-// submit
-var createSubmit = document.createElement("button");
-createSubmit.setAttribute("type", "submit");
-createSubmit.setAttribute("id", "Submit");
-createSubmit.textContent = "Submit";
-
-questionsDiv.appendChild(createSubmit);
-
-// Event listener to capture initials and local storage for initials and score
-createSubmit.addEventListener("click", function () {
-    var initials = createInput.value;
-
-    if (initials === null) {
-
-        console.log("No value entered!");
-
-    } else {
-        var finalScore = {
-            initials: initials,
-            score: timeRemaining
-        }
-        console.log(finalScore);
-        var allScores = localStorage.getItem("allScores");
-        if (allScores === null) {
-            allScores = [];
         } else {
-            allScores = JSON.parse(allScores);
+            var finalScore = {
+                initials: initials,
+                score: timeRemaining
+            }
+            console.log(finalScore);
+            var allScores = localStorage.getItem("allScores");
+            if (allScores === null) {
+                allScores = [];
+            } else {
+                allScores = JSON.parse(allScores);
+            }
+            allScores.push(finalScore);
+            var newScore = JSON.stringify(allScores);
+            localStorage.setItem("allScores", newScore);
+            // Travels to final page
+            window.location.replace("./HighScores.html");
         }
-        allScores.push(finalScore);
-        var newScore = JSON.stringify(allScores);
-        localStorage.setItem("allScores", newScore);
-        // Travels to final page
-        window.location.replace("./HighScores.html");
-    }
-});
+    });
 
 }
