@@ -19,3 +19,11 @@ if (allScores !== null) {
         var createLi = document.createElement("li");
         createLi.textContent = allScores[i].initials + " " + allScores[i].score;
         highScore.appendChild(createLi);
+
+        
+    }
+}
+// Event listener to move to index page
+goBack.addEventListener("click", function () {
+    window.location.replace("./index.html");
+});
