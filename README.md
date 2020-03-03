@@ -1,58 +1,53 @@
+1. title
 
-1. objective 
+The project is named code quiz which allowed the user save his initials at the end. 
 
 
-The purpose of this project is to allow the user to save his initials and score by completing the following requirement:  first the user has to click on  the start bottom to allow the timer to begin, and with some question to answer. next, anytime the user answer question, he will be presented with another question. if the question the user fails the question, then the time is subtrated from the clock. when the user answer all questions or times reaches 0, then the game start over. 
+2. objective 
+
+The purpose of this project is to allow the user to save his initials and score by completing the following requirement:  first the user has to click on  the start bottom to allow the timer to begin, and with some questions to answer. next, anytime the user answer question, he will be presented with another question. if the question the user fails the question, then the time is subtrated from the clock. when the user answer all questions or times reaches 0, then the game start over. from this project, I learned that I can use some javascript code, css , Html to build a time quiz code with multiple questions 
 
 click on the link bellow to see the project in activation : https://papy1974.github.io/papy_code_quiz/
 
+3. installation 
+
+In order to use the project the following software must be installed in your computer. Git bash, and visual studio that can be done in a lap top or a mac. Git can be download from the fallowing link: https://git-scm.com/download/win, and here is the link for downloading visual studio: visualstudio.microsoft.com. It's better to use windows 10 while using the project. both Git bash and visual studio will allow thw user the have acces to the codes that help to build a project. from this project, I learned that I can use some javascript code, css , Html to build a time quiz code with multiple questions 
+
+4. example usage
+
+After forking and cloning the project repertory from Github, the following code can be type in git bash to view the project codes and files: git clone fallow by the project name(press paste). cd project name, code .
+once the visual studio is launched, click right and select  delfault browser to open sites in action. click start quiz , and begin the multiple choice.  depend on you score, at the end you can go back and start over. refer to the above link  given in the objective of thie readme. 
+
+5. Environment 
+
+I am excpeting my project to be pull by others in order to make some suggestion on some block of codes and send me feedback .I can also be contacted  by emails:papylotomba@yahoo.fr.  
+
+5. license and copyright. 
+
+MIT License
+
+Copyright (c) [2020] [PAPY LONTOMBA]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 
 
 
-2. 
 
-
-# papy_code_quiz
-
-As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment, which is typically a combination of multiple-choice questions and interactive challenges. Build a timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
-
-## User Story
-
-```
-AS A coding bootcamp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
-
-## Acceptance Criteria
-
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
-```
-
-The following animation demonstrates the application functionality:
-
-![code quiz](./Assets/04-web-apis-homework-demo.gif)
-
-### Review
-
-You are required to submit the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
