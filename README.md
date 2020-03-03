@@ -4,6 +4,12 @@
 
 The purpose of this project is to allow the user to save his initials and score by completing the following requirement:  first the user has to click on  the start bottom to allow the timer to begin, and with some question to answer. next, anytime the user answer question, he will be presented with another question. if the question the user fails the question, then the time is subtrated from the clock. when the user answer all questions or times reaches 0, then the game start over. 
 
+click on the link bellow to see the project in activation : https://papy1974.github.io/papy_code_quiz/
+
+
+
+
+
 
 2. 
 
