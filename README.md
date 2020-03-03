@@ -1,3 +1,13 @@
+
+1. objective 
+
+
+The purpose of this project is to allow the user to save his initials and score by completing the following requirement:  first the user has to click on  the start bottom to allow the timer to begin, and with some question to answer. next, anytime the user answer question, he will be presented with another question. if the question the user fails the question, then the time is subtrated from the clock. when the user answer all questions or times reaches 0, then the game start over. 
+
+
+2. 
+
+
 # papy_code_quiz
 
 As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment, which is typically a combination of multiple-choice questions and interactive challenges. Build a timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
