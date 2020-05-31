@@ -10,7 +10,7 @@ clear.addEventListener("click", function () {
 });
 
 
-// found local storage 
+// found local storage and operate a loop 
 var allScores = localStorage.getItem("allScores");
 allScores = JSON.parse(allScores);
 
