@@ -9,6 +9,7 @@ The purpose of this project is to allow the user to save his initials and score 
 
 click on the link bellow to see the project in activation : https://papy1974.github.io/papy_code_quiz/
 
+
 3. installation 
 
 In order to use the project the following software must be installed in your computer. Git bash, and visual studio that can be done in a lap top or a mac. Git can be download from the fallowing link: https://git-scm.com/download/win, and here is the link for downloading visual studio: visualstudio.microsoft.com. It's better to use windows 10 while using the project. both Git bash and visual studio will allow thw user the have acces to the codes that help to build a project. from this project, I learned that I can use some javascript code, css , Html to build a time quiz code with multiple questions 
