@@ -1,4 +1,4 @@
-1. title
+1. Title
 
 The project is named code quiz which allowed the user save his initials at the end. 
 
